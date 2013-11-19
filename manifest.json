@@ -1,0 +1,19 @@
+{
+ "name": "md5cr4ck",
+ "version": "1.0",
+ "manifest_version": 2,
+ "description": "somd5 crack",
+ "permissions": [
+   "tabs","http://*/","https://*/","background"
+ ],
+ "icons":
+ {
+  "48": "icon48.png",
+      "128": "icon128.png"
+ },
+ "browser_action": {
+   "default_icon": "icon.png",
+   "default_title": "md5cr4ck",
+       "default_popup": "popup.html"
+ }
+}
